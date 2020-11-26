@@ -1,0 +1,267 @@
+@media only screen and (max-width: 1024px){
+	.chuyenvien_mb{
+		display: inline-block;
+		background: #FFFFFF;
+		box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 5px;
+		width: 100%;
+		padding: 20px 15px;
+	}
+	.chuyenvien_mb div.chuyenvien{
+		float: left;
+	    margin-right: 5px;
+	    height: 65px;
+	    width: 65px;
+	}
+	.chuyenvien_mb div.chuyenvien img{
+		width: 100%;
+	    height: 100%;
+	    object-fit: cover;
+	    border-radius: 50%;
+	}
+	header{
+		padding: 5px 0;
+		height: 60px;
+	}
+	header .top-left{
+		display: none;
+	}
+	header .top{
+		text-align: center;
+		width: 100%;
+	}
+	#btn-right{
+		display: inline-block;
+	}
+	#header_right {
+	    background: #FFFFFF;
+	    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	    border-radius: 5px;
+	    padding: 23px;
+	    position: relative;
+	    z-index: 9;
+	}
+	header .top-right li{
+		display: block;
+	    margin-top: 10px;
+	    margin-right: 0;
+	}
+	.menu_danhmuc{
+		display: none;
+	}
+	.main .left{
+		float: unset;
+	    width: 35%;
+	    margin: 0 auto;
+	}
+	.main .left .top{
+		margin-bottom: 20px;
+	}
+	.main .right{
+		width: 100%;
+		padding-left: 0;
+	}
+	.top-right .box{
+		width: 23%;
+	    margin-right: 15px;
+        padding: 10px 5px;
+        margin-right: 18px;
+	}
+	.top-right .box:last-child{
+		margin-right: 0;
+		float: right;
+	}
+	.center .main .item{
+		width: 49%;
+		margin-bottom: 10px;
+	}
+	.center .main .item:nth-child(3n){
+		margin-right: 5px;
+		float: left;
+	}
+	.center .main .item:nth-child(2n){
+		margin-right: 0;
+		float: right;
+	}
+	.center .main .show_all{
+		margin-top: 0px;
+	}
+	.center .main.blog{
+		padding: 10px;
+	}
+	.center .main.blog .item{
+		padding: 0;
+		margin-right: 13px;
+	    width: 32%
+	}
+	.center .main.blog .item:nth-child(2){
+		float: left;
+	}
+	#btn-left{
+		display: block;
+	}
+	.form_candi .form-group{
+		width: 100%;
+	}
+	#information_candi{
+		margin-top: 0;
+	}
+	.main_mycv .item{
+		width: 32%;
+	    margin-right: 13px;
+	}
+	.main_mycv .item:nth-child(3n){
+	    margin-right: 0;
+	    float: right;
+	}
+	.main_mycv .item:nth-child(4n){
+	    margin-right: 13px;
+	}
+	.table{
+		display: none;
+	}
+	.table_mb{
+		background: #FFFFFF;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+		border-radius: 5px;
+		padding: 15px 30px;
+		display: inline-block;
+		width: 100%;
+	}
+	.main{
+		padding: 20px;
+	}
+	.table_mb .item p{
+		font-style: normal;
+		font-size: 15px;
+		line-height: 18px;
+		margin-bottom: 10px;
+		text-indent: 14px;
+	}
+	.table_mb .item p.trash span.ungtuyen,.table_mb .item p.trash span.daungtuyen{
+		background: #F48600;
+		border-radius: 5px;
+		font-size: 15px;
+		line-height: 18px;
+		padding: 5px 30px;
+		color: #FFFFFF;
+	}
+	.table_mb .item p.new_title{
+		text-indent: 0;
+	}
+	.dat_yc{
+		background: #00E132;
+		border-radius: 5px;
+		font-size: 13px;
+		line-height: 15px;
+		padding: 2px 8px;
+		color: #FFFFFF;
+	}
+	.kodat_yc{
+		background: #F48600;
+		border-radius: 5px;
+		font-size: 13px;
+		line-height: 15px;
+		color: #FFFFFF;
+		padding: 2px 8px;
+	}
+	.trash a{
+		background: #FF5757;
+		border-radius: 5px;
+		color: #FFFFFF;
+		padding: 5px 10px;
+		position: relative;
+	}
+	.trash a:before{
+		content: "";
+		background: url('../images/icon365_manager/icon_trash.png');
+		background-repeat: no-repeat;
+		width: 20px;
+		height: 20px;
+		background-size: 100%;
+	    display: inline-block;
+	    position: relative;
+	    top: 3px;
+	    left: -4px;
+	}
+	.table_mb .item{
+		display: inline-block;
+		width: 100%;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #C4C4C4;
+		margin-bottom: 20px;
+	}
+	.table_mb .item .date{
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.form_changepass{
+		width: 100%;
+	}
+	.form_changepass .form-group{
+		display: inline-block;
+		width: 100%;
+	}
+	.form_config{
+		width: 45%;
+		padding-bottom: 20px;
+	}
+	#header_left {
+	    float: left;
+	    margin-top: 10px;
+	    background: #FFFFFF;
+	    border-radius: 5px;
+	    width: 63%;
+	    z-index: 9;
+	    position: relative;
+	    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	}
+	.first{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 425px){
+	.main{
+		padding: 20px 10px;
+	}
+	.main .left{
+		width: 80%;
+	}
+	.top-right .box{
+		margin-right: 10px;
+		width: 48%;
+		margin-bottom: 10px;
+	}
+	.top-right .box:nth-child(2n){
+		float: right;
+		margin-right: 0px;
+	}
+	.center{
+		padding-top: 10px;
+	}
+	.center .main .item{
+		width: 100%;
+		margin-right: 0;
+	}
+	.center .main .logo{
+		height: 89px;
+	}
+	.content .new_title, .content .name_company{
+		margin-bottom: 5px;
+	}
+	.content .city{
+		margin-bottom: 5px;
+	}
+	.center .main.blog .item{
+		width: 100%;
+	}
+	.main_mycv .item{
+		width: 100%;
+	}
+	.table_mb{
+		padding: 10px;
+	}
+	.form_config{
+		width: 80%;
+	}
+}

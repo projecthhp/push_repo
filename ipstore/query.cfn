@@ -1,0 +1,6 @@
+24/10/2020 06:50:50 AM  
+ SELECT * FROM seo_tt WHERE name_page = 'home' /
+24/10/2020 06:50:50 AM  
+ SELECT usc_create_time,usc_logo,usc_email,usc_company,usc_authentic FROM user_company WHERE usc_id = 121230 /
+30/10/2020 07:43:50 AM  
+ SELECT * FROM seo_tt WHERE name_page = 'home' /

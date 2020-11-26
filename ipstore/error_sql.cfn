@@ -1,0 +1,1225 @@
+21/10/2020 11:21:51 AM Unknown table 'new_lang_letter'
+SELECT new_lang_letter.*,languagecv.alias,languagecv.name as name_lang FROM new_lang_appli JOIN languagecv ON new_lang_appli.id_lang = languagecv.id WHERE new_lang_appli.id_lang = '1'  /mau-thu-xin-viec/thu-xin-viec-tieng-viet-s1.html
+22/10/2020 09:56:23 AM  Unknown column 'timeedit' in 'field list'
+UPDATE category_letter SET cat_name='Mẫu cv ',meta_tit='Mẫu cv ',meta_des='Mẫu cv  123123123',meta_key='Mẫu cv ',meta_h1='Mẫu cv ',meta_sapo='Mẫu cv ',content='<p>Mẫu cv&nbsp;</p>
+',timeedit='' WHERE cat_id = 1 LIMIT 1 /admin/modules/category_letter/edit.php?record_id=1&url=L2FkbWluL21vZHVsZXMvY2F0ZWdvcnlfbGV0dGVyL2xpc3QucGhw
+22/10/2020 09:56:29 AM  Unknown column 'timeedit' in 'field list'
+UPDATE category_letter SET cat_name='Mẫu cv ',meta_tit='Mẫu cv 123',meta_des='Mẫu cv 123123123',meta_key='Mẫu cv ',meta_h1='Mẫu cv ',meta_sapo='Mẫu cv ',content='<p>Mẫu cv&nbsp;</p>
+',timeedit='' WHERE cat_id = 1 LIMIT 1 /admin/modules/category_letter/edit.php?record_id=1&url=L2FkbWluL21vZHVsZXMvY2F0ZWdvcnlfbGV0dGVyL2xpc3QucGhwP3JlY29yZF9pZD0x
+22/10/2020 09:57:25 AM  Unknown column 'timeedit' in 'field list'
+UPDATE category_letter SET cat_name='Mẫu cv ',meta_tit='Mẫu cv ',meta_des='Mẫu cv zxczxczx',meta_key='Mẫu cv ',meta_h1='Mẫu cv ',meta_sapo='Mẫu cv ',content='<p>Mẫu cv&nbsp;</p>
+',timeedit='' WHERE cat_id = 1 LIMIT 1 /admin/modules/category_letter/edit.php?record_id=1&url=L2FkbWluL21vZHVsZXMvY2F0ZWdvcnlfbGV0dGVyL2xpc3QucGhw
+23/10/2020 02:21:38 AM Unknown column 'new_mota' in 'field list'
+INSERT INTO new(`new_id`,`new_mota`,`new_yeucau`,`new_quyenloi`,`new_ho_so`) VALUES ('','xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc ','xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc ','xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc ','xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc xcxzc zxc xzc zx czxc xz zxcxzc ')  /codelogin/dang_tin.php
+24/10/2020 01:32:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '67 AND user_company.usc_id <> 121230 LIMIT 5' at line 1
+SELECT user_company.usc_id, usc_company,usc_alias, usc_logo,usc_create_time FROM user_company JOIN user_company_multi ON user_company.usc_id = user_company_multi.usc_id WHERE usc_district = 615,67 AND user_company.usc_id <> 121230 LIMIT 5 /1231231231-n121230.html
+24/10/2020 01:37:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '67 AND user_company.usc_id <> 121230 LIMIT 5' at line 1
+SELECT user_company.usc_id, usc_company,usc_alias, usc_logo,usc_create_time FROM user_company JOIN user_company_multi ON user_company.usc_id = user_company_multi.usc_id WHERE usc_district = 615,67 AND user_company.usc_id <> 121230 LIMIT 5 /1231231231-n121230.html
+24/10/2020 01:38:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '67 AND user_company.usc_id <> 121230 LIMIT 5' at line 1
+SELECT user_company.usc_id, usc_company,usc_alias, usc_logo,usc_create_time FROM user_company JOIN user_company_multi ON user_company.usc_id = user_company_multi.usc_id WHERE usc_district = 615,67 AND user_company.usc_id <> 121230 LIMIT 5 /1231231231-n121230.html
+24/10/2020 01:38:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '67 AND user_company.usc_id <> 121230 LIMIT 5' at line 1
+SELECT user_company.usc_id, usc_company,usc_alias, usc_logo,usc_create_time FROM user_company JOIN user_company_multi ON user_company.usc_id = user_company_multi.usc_id WHERE usc_district = 615,67 AND user_company.usc_id <> 121230 LIMIT 5 /1231231231-n121230.html
+24/10/2020 01:38:11 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '67 AND user_company.usc_id <> 121230 LIMIT 5' at line 1
+SELECT user_company.usc_id, usc_company,usc_alias, usc_logo,usc_create_time FROM user_company JOIN user_company_multi ON user_company.usc_id = user_company_multi.usc_id WHERE usc_district = 615,67 AND user_company.usc_id <> 121230 LIMIT 5 /1231231231-n121230.html
+24/10/2020 01:38:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '67 AND user_company.usc_id <> 121230 LIMIT 5' at line 1
+SELECT user_company.usc_id, usc_company,usc_alias, usc_logo,usc_create_time FROM user_company JOIN user_company_multi ON user_company.usc_id = user_company_multi.usc_id WHERE usc_district = 615,67 AND user_company.usc_id <> 121230 LIMIT 5 /1231231231-n121230.html
+24/10/2020 01:38:52 AM Unknown column 'Array' in 'where clause'
+SELECT user_company.usc_id, usc_company,usc_alias, usc_logo,usc_create_time FROM user_company JOIN user_company_multi ON user_company.usc_id = user_company_multi.usc_id WHERE usc_district = Array AND user_company.usc_id <> 121230 LIMIT 5 /1231231231-n121230.html
+24/10/2020 03:22:37 AM Unknown column 'news.new_user_id' in 'on clause'
+SELECT count(*) FROM news JOIN user_company ON user_company.usc_id = news.new_user_id WHERE (new_title LIKE '%Kế%' AND new_title LIKE '%toán%' AND new_title LIKE '%-%' AND new_title LIKE '%Kiểm%' AND new_title LIKE '%toán%') /home/test.php
+24/10/2020 04:32:45 AM Unknown column 'cmt_check' in 'where clause'
+SELECT count(*) AS count 
+											 FROM tbl_tags
+											 WHERE 1  AND cmt_check = 0 /admin/modules/tags/listing.php
+24/10/2020 04:34:53 AM Unknown column 'cmt_check' in 'where clause'
+SELECT count(*) AS count 
+											 FROM tbl_tags
+											 WHERE 1  AND cmt_check = 0 /admin/modules/tags/listing.php
+24/10/2020 04:35:01 AM Unknown column 'cmt_check' in 'where clause'
+SELECT * 
+										 FROM tbl_tags
+										 WHERE 1  AND cmt_check = 0
+										 ORDER BY tag_id DESC
+										 LIMIT 0,30 /admin/modules/tags/listing.php
+24/10/2020 11:02:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Drai%')' at line 1
+SELECT count(*) FROM new JOIN user_company ON new_user_id = usc_id WHERE (FIND_IN_SET('515',new_qh_id)) OR (usc_address LIKE '%Huyện Ia H' Drai%') /home/test.php
+25/10/2020 01:14:21 AM  Unknown column 'tag_title' in 'field list'
+INSERT  INTO tbl_cmt_reply(tag_title,tag_des,tag_keyword) VALUES ('','Des SEO','Key SEO') /admin/modules/tags/edit.php?record_id=178&url=L2FkbWluL21vZHVsZXMvdGFncy9saXN0aW5nX2RldGFpbC5waHA%2FaWQ9MQ%3D%3D
+25/10/2020 01:15:47 AM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=  LIMIT 1' at line 1
+UPDATE tbl_tags SET tag_title='',tag_des='Des SEO',tag_keyword='Key SEO' WHERE  =  LIMIT 1 /admin/modules/tags/edit.php?record_id=178&url=L2FkbWluL21vZHVsZXMvdGFncy9saXN0aW5nX2RldGFpbC5waHA%2FaWQ9MQ%3D%3D
+25/10/2020 01:18:02 AM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=  LIMIT 1' at line 1
+UPDATE tbl_tags SET tag_title='',tag_des='Des SEO',tag_keyword='Key SEO' WHERE  =  LIMIT 1 /admin/modules/tags/edit.php?record_id=178&url=L2FkbWluL21vZHVsZXMvdGFncy9saXN0aW5nX2RldGFpbC5waHA%2FaWQ9MQ%3D%3D
+25/10/2020 02:21:02 AM Table 'viec365_tv365com.tbl_tag' doesn't exist
+SELECT count(*) FROM tbl_tag WHERE tag_district_id = 66 AND tag_cate_id = 91 AND tag_parent = 2  /home/test.php
+25/10/2020 07:52:49 AM Unknown column 'new_mota' in 'field list'
+SELECT new_id,new_title,new_money,new_city,new_han_nop,new_alias,new_mota FROM new WHERE new_user_id = 122561 ORDER BY new_id DESC /co-phan-asia-new-time-n122561.html
+25/10/2020 07:53:24 AM Unknown column 'new_mota' in 'field list'
+SELECT new_id,new_title,new_money,new_city,new_han_nop,new_alias,new_mota FROM new WHERE new_user_id = 122561 ORDER BY new_id DESC /co-phan-asia-new-time-n122561.html
+25/10/2020 07:54:06 AM Column 'new_id' in field list is ambiguous
+SELECT new_id,new_title,new_money,new_city,new_han_nop,new_alias,new_mota FROM new JOIN new_multi ON new.new_id = new_multi.new_id WHERE new_user_id = 122561 ORDER BY new_id DESC /co-phan-asia-new-time-n122561.html
+25/10/2020 07:54:17 AM Column 'new_id' in field list is ambiguous
+SELECT new_id,new_title,new_money,new_city,new_han_nop,new_alias,new_mota FROM new JOIN new_multi ON new.new_id = new_multi.new_id WHERE new_user_id = 122561 ORDER BY new.new_id DESC /co-phan-asia-new-time-n122561.html
+26/10/2020 01:54:17 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drai%')' at line 1
+SELECT count(*) FROM new JOIN user_company ON new_user_id = usc_id WHERE (FIND_IN_SET('515',new_qh_id)) OR (usc_district = 515 AND usc_address LIKE '%ia h' drai%') /home/test.php
+27/10/2020 07:04:50 AM Column 'serial' in order clause is ambiguous
+SELECT * FROM nganhcv JOIN samplecv ON nganhcv.id = samplecv.idnganh ORDER BY serial DESC,samplecv.timecreated DESC /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+27/10/2020 07:06:03 AM Unknown column 'samplecv.timecreated' in 'order clause'
+SELECT * FROM nganhcv ORDER BY serial DESC, samplecv.timecreated DESC /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 01:14:10 AM Unknown column 'cit_id' in 'field list'
+SELECT cit_id, cit_name,cit_parent FROM tbl_tags WHERE tag_active = 1 /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 01:14:11 AM Unknown column 'cit_id' in 'field list'
+SELECT cit_id, cit_name,cit_parent FROM tbl_tags WHERE tag_active = 1 /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 01:14:11 AM Unknown column 'cit_id' in 'field list'
+SELECT cit_id, cit_name,cit_parent FROM tbl_tags WHERE tag_active = 1 /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 01:14:11 AM Unknown column 'cit_id' in 'field list'
+SELECT cit_id, cit_name,cit_parent FROM tbl_tags WHERE tag_active = 1 /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 01:14:12 AM Unknown column 'cit_id' in 'field list'
+SELECT cit_id, cit_name,cit_parent FROM tbl_tags WHERE tag_active = 1 /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 01:32:05 AM Table 'viec365_tv365com.tbl_tag' doesn't exist
+SELECT tag_id,tag_parent, tag_alias,tag_name FROM tbl_tag /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 01:53:38 AM Table 'viec365_tv365com.tbl_tag' doesn't exist
+SELECT tag_id, tag_alias FROM tbl_tag WHERE tag_parent = 1 AND tag_district_id = 66 /tim-viec-lam-tai-quan-thanh-xuan-ha-noi-k21501.html
+28/10/2020 02:44:03 AM Unknown column 'name' in 'order clause'
+SELECT * FROM category_letter ORDER BY name ASC /admin/modules/sample_letter/add.php
+28/10/2020 02:54:51 AM Unknown column 'status' in 'where clause'
+SELECT cat_id,cat_name
+                          FROM category_letter
+                          WHERE status = 1
+                          ORDER BY cat_id ASC /admin/modules/sample_letter/listing.php
+28/10/2020 03:03:11 AM Table 'viec365_tv365com.savecandi_lt' doesn't exist
+SELECT * FROM savecandi_lt JOIN sample_letter ON savecandi_lt.idlt = sample_letter.id JOIN user ON savecandi_lt.iduser = user.use_id WHERE sample_letter.alias = 'bien-phien-dich-08' AND sample_letter.id = '1' AND iduser = 330 /tao-thu-xin-viec/bien-phien-dich-08-n1.html
+28/10/2020 03:03:45 AM Table 'viec365_tv365com.savecandi_lt' doesn't exist
+SELECT * FROM savecandi_lt JOIN sample_letter ON savecandi_lt.idlt = sample_letter.id JOIN user ON savecandi_lt.iduser = user.use_id WHERE sample_letter.alias = 'bien-phien-dich-08' AND sample_letter.id = '1' AND iduser = 330 /tao-thu-xin-viec/bien-phien-dich-08-n1.html
+28/10/2020 03:05:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM samplecv WHERE status = 1 AND alias <> '' AND idnganh =  /tao-thu-xin-viec/bien-phien-dich-08-n1.html
+28/10/2020 03:18:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-thu-xin-viec/bien-phien-dich-08-n1.html
+28/10/2020 03:21:40 AM Unknown column 'status' in 'where clause'
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh = 1 /tao-thu-xin-viec/bien-phien-dich-08-n1.html
+28/10/2020 04:01:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT iduser FROM savecandi_lt WHERE iduser=3780 AND idlt= /ajax/SaveLTByUv.php
+28/10/2020 04:01:48 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT nameimg FROM savecandi_lt WHERE iduser=3780 AND idlt= /home/post_lt.php
+28/10/2020 04:12:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT nameimg FROM savecandi_lt WHERE iduser=3780 AND idlt= /home/post_lt.php
+28/10/2020 04:13:42 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT iduser FROM savecandi_lt WHERE iduser=3780 AND idlt= /ajax/SaveLTByUv.php
+28/10/2020 10:15:43 AM Unknown column 'usc_city' in 'where clause'
+SELECT count(*) AS count 
+											 FROM tbl_tags
+											 WHERE 1  AND usc_city = 1 /admin/modules/tags/listing.php?search=1&tag_id=&city_sl=1&district=0&startdate=dd%2Fmm%2Fyyyy&enddate=dd%2Fmm%2Fyyyy
+29/10/2020 08:34:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') FROM user_company WHERE usc_address = '198 Đường cầu diễn, Bắc từ ' at line 1
+SELECT count() FROM user_company WHERE usc_address = '198 Đường cầu diễn, Bắc từ liêm, Hà Nội' /ajax/checkInfoCompany.php
+29/10/2020 08:34:36 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') FROM user_company WHERE usc_address = '198 Đường cầu diễn, Bắc từ ' at line 1
+SELECT count() FROM user_company WHERE usc_address = '198 Đường cầu diễn, Bắc từ liêm, Hà Nội' /ajax/checkInfoCompany.php
+02/11/2020 08:31:31 AM Unknown column 'financial_sector' in 'field list'
+INSERT INTO user_company(`usc_email`,`usc_pass`,`usc_phone`,`usc_security`,`usc_authentic`,`usc_company`,`usc_city`,`usc_district`,`usc_address`,`usc_alias`,`ip_address`,`usc_create_time`,`usc_update_time`,`usc_logo`,`usc_skype`,`usc_index`,`DateOfIncorporation`,`usc_mst`,`financial_sector`) VALUES ('iic96986@bcaoo.com','4297f44b13955235245b2497399d7a93','1231231234','0','0','zxczczx ','26','425','zxczxczxczx','zxczczx','::1','1604305891','1604305891','485255781803-4747-700x425.jpg','','0','','','3,4')  /codelogin/register_ntd.php
+04/11/2020 02:33:35 AM Unknown column 'usc_id' in 'where clause'
+UPDATE user SET `use_update_time` = '1604457215' WHERE 1 AND `usc_id` = '64446'  /data/update_data.php
+04/11/2020 09:31:57 AM Table 'viec365_tv365com.tbl_tag' doesn't exist
+SELECT tag_id, tag_name FROM tbl_tag WHERE tag_parent = 3 AND tag_type = 91 /ajax/getKeyTag.php
+05/11/2020 01:16:19 AM Table 'viec365_tv365com.sample_appli' doesn't exist
+SELECT count(*) AS count FROM sample_appli /admin/modules/sample_appli/listing.php
+05/11/2020 01:41:25 AM Unknown column 'id' in 'field list'
+SELECT id,serial, id,name,title_des FROM category_appli WHERE 1 ORDER BY serial ASC,1 /admin/modules/sample_appli/add.php
+05/11/2020 01:41:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' id,name,title_des FROM category_appli WHERE 1 ORDER BY  ASC,1' at line 1
+SELECT cat_id,, id,name,title_des FROM category_appli WHERE 1 ORDER BY  ASC,1 /admin/modules/sample_appli/add.php
+05/11/2020 01:42:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' id,name,title_des FROM category_appli WHERE 1 ORDER BY  ASC,1' at line 1
+SELECT cat_id,, id,name,title_des FROM category_appli WHERE 1 ORDER BY  ASC,1 /admin/modules/sample_appli/add.php
+05/11/2020 01:42:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' id,name,title_des FROM category_appli WHERE 1 ORDER BY  ASC,1' at line 1
+SELECT cat_id,, id,name,title_des FROM category_appli WHERE 1 ORDER BY  ASC,1 /admin/modules/sample_appli/add.php
+05/11/2020 02:48:39 AM Unknown column 'new_id' in 'where clause'
+SELECT serial FROM sample_appli WHERE new_id= 1 /admin/modules/sample_appli/active.php?ajax=1&field=serial&checkbox=1&record_id=1&url=L2FkbWluL21vZHVsZXMvc2FtcGxlX2FwcGxpL2xpc3RpbmcucGhw&checkbox=1
+05/11/2020 02:49:06 AM  Unknown column 'new_id' in 'where clause'
+UPDATE sample_appli SET serial = 1 WHERE new_id = 1 /admin/modules/sample_appli/active.php?ajax=1&field=serial&checkbox=1&record_id=1&url=L2FkbWluL21vZHVsZXMvc2FtcGxlX2FwcGxpL2xpc3RpbmcucGhw&checkbox=1
+05/11/2020 02:49:07 AM  Unknown column 'new_id' in 'where clause'
+UPDATE sample_appli SET serial = 1 WHERE new_id = 1 /admin/modules/sample_appli/active.php?ajax=1&field=serial&checkbox=1&record_id=1&url=L2FkbWluL21vZHVsZXMvc2FtcGxlX2FwcGxpL2xpc3RpbmcucGhw&checkbox=1
+05/11/2020 02:49:07 AM  Unknown column 'new_id' in 'where clause'
+UPDATE sample_appli SET serial = 1 WHERE new_id = 1 /admin/modules/sample_appli/active.php?ajax=1&field=serial&checkbox=1&record_id=1&url=L2FkbWluL21vZHVsZXMvc2FtcGxlX2FwcGxpL2xpc3RpbmcucGhw&checkbox=1
+05/11/2020 02:49:08 AM  Unknown column 'new_id' in 'where clause'
+UPDATE sample_appli SET serial = 1 WHERE new_id = 1 /admin/modules/sample_appli/active.php?ajax=1&field=serial&checkbox=1&record_id=1&url=L2FkbWluL21vZHVsZXMvc2FtcGxlX2FwcGxpL2xpc3RpbmcucGhw&checkbox=1
+05/11/2020 02:49:09 AM  Unknown column 'new_id' in 'where clause'
+UPDATE sample_appli SET serial = 1 WHERE new_id = 1 /admin/modules/sample_appli/active.php?ajax=1&field=serial&checkbox=1&record_id=1&url=L2FkbWluL21vZHVsZXMvc2FtcGxlX2FwcGxpL2xpc3RpbmcucGhw&checkbox=1
+05/11/2020 02:54:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM savecandi_lt JOIN sample_letter ON savecandi_lt.idlt = sample_letter.id JOIN user ON savecandi_lt.iduser = user.use_id WHERE sample_letter.alias = 'du-lich-03' AND sample_letter.id = '0' AND iduser =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:55:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM savecandi_lt JOIN sample_letter ON savecandi_lt.idlt = sample_letter.id JOIN user ON savecandi_lt.iduser = user.use_id WHERE sample_letter.alias = 'du-lich-03' AND sample_letter.id = '1' AND iduser =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:55:47 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM savecandi_lt JOIN sample_letter ON savecandi_lt.idlt = sample_letter.id JOIN user ON savecandi_lt.iduser = user.use_id WHERE sample_letter.alias = 'du-lich-03' AND sample_letter.id = '1' AND iduser =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:55:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:56:04 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:56:51 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:57:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:57:56 AM Table 'viec365_tv365com.savecandi_appli' doesn't exist
+SELECT * FROM savecandi_appli JOIN sample_appli ON savecandi_appli.idappli = sample_appli.id JOIN user ON savecandi_appli.iduser = user.use_id WHERE sample_appli.alias = 'du-lich-03' AND sample_appli.id = '' AND iduser = 3780 /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 02:59:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 03:02:46 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 03:18:14 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE category_appli ORDER BY cat_name DESC' at line 1
+SELECT cat_id, cat_name WHERE category_appli ORDER BY cat_name DESC /tao-don-xin-viec/du-lich-03-m1.html
+05/11/2020 04:27:54 AM Unknown column 'savecandi_appli.idlt' in 'on clause'
+SELECT savecandi_appli.*,alias,name FROM savecandi_appli INNER JOIN sample_letter ON savecandi_appli.idlt = sample_letter.id WHERE iduser = '3780' ORDER BY savecandi_appli.id DESC  /ung-vien/don-xin-viec.html
+05/11/2020 04:33:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT alias,image,name FROM sample_letter WHERE status = 1 AND alias <> '' AND idnganh =  /tao-thu-xin-viec/du-lich-03-n1.html
+05/11/2020 08:21:13 AM Unknown column 'status' in 'where clause'
+SELECT alias,image,name FROM sample_appli WHERE status = 1 AND alias <> '' AND idnganh = 8 /tao-don-xin-viec/du-lich-03-m1.html
+06/11/2020 09:34:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_nganh_nghe) OR FIND_IN_SET(,use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+06/11/2020 09:34:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(6,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+06/11/2020 10:10:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_nganh_nghe) OR FIND_IN_SET(,use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+06/11/2020 10:18:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_nganh_nghe) OR FIND_IN_SET(,use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+06/11/2020 10:30:06 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_nganh_nghe) OR FIND_IN_SET(,use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+06/11/2020 10:37:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_nganh_nghe) OR FIND_IN_SET(,use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+06/11/2020 10:45:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_nganh_nghe) OR FIND_IN_SET(,use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+06/11/2020 10:46:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'use_district_job)' at line 1
+SELECT count(1) FROM user WHERE 1 AND FIND_IN_SET(35,use_nganh_nghe) OR FIND_IN_SET(,use_district_job) /nha-tuyen-dung/thong-tin-chung.html
+07/11/2020 07:35:51 AM Unknown column 'city' in 'where clause'
+SELECT cit_id, cit_name FROM city WHERE city ORDER BY cit_name ASC /admin/modules/tags/xuat_excel.php
+07/11/2020 08:09:18 AM Unknown column 'cit_parent' in 'field list'
+SELECT cit_id, cit_name,cit_parent FROM city WHERE cit_id = 1 /admin/modules/tags/xuat_excel.php
+<<<<<<< HEAD
+09/11/2020 03:04:33 AM Unknown column 'd41d8cd98f00b204e9800998ecf8427e' in 'where clause'
+select ma_ntd from flc_user_ntd where sdt_ntd = d41d8cd98f00b204e9800998ecf8427e /home/loginuv.php
+09/11/2020 03:35:47 AM Unknown column 'manh4321' in 'where clause'
+select ma_ntd from flc_user_ntd where sdt_ntd = 0815630776 and mat_khau_ntd = manh4321 /home/loginntd.php
+09/11/2020 04:27:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' and mat_khau_ntd = '36b7148acc1b607c473a15a47fa17706'' at line 1
+select ma_ntd from flc_user_ntd where sdt_ntd = '' or 1=1' and mat_khau_ntd = '36b7148acc1b607c473a15a47fa17706' /home/loginntd.php
+09/11/2020 04:29:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' and mat_khau_ntd = 'c4ca4238a0b923820dcc509a6f75849b'' at line 1
+select ma_ntd from flc_user_ntd where sdt_ntd = '' or 1=1' and mat_khau_ntd = 'c4ca4238a0b923820dcc509a6f75849b' /home/loginntd.php
+09/11/2020 04:30:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"or 1=1' and mat_khau_ntd = 'd41d8cd98f00b204e9800998ecf8427e'' at line 1
+select ma_ntd from flc_user_ntd where sdt_ntd = ''"or 1=1' and mat_khau_ntd = 'd41d8cd98f00b204e9800998ecf8427e' /home/loginntd.php
+09/11/2020 04:30:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"or 1=1' and mat_khau_ntd = 'db5af5e7744f447014b5476138c27bac'' at line 1
+select ma_ntd from flc_user_ntd where sdt_ntd = ''"or 1=1' and mat_khau_ntd = 'db5af5e7744f447014b5476138c27bac' /home/loginntd.php
+09/11/2020 04:32:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+1 /home/loginntd.php
+09/11/2020 04:32:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"or 1=1' and mat_khau_ntd = 'c4ca4238a0b923820dcc509a6f75849b'' at line 1
+select ma_ntd from flc_user_ntd where sdt_ntd = ''"or 1=1' and mat_khau_ntd = 'c4ca4238a0b923820dcc509a6f75849b' /home/loginntd.php
+09/11/2020 07:41:12 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+select ma_otp from flc_user_ntd where ma_ntd =  /home/OTP-ntd.php
+10/11/2020 09:43:46 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on tinh_thanh_pho_ntd.flc_user_ntd=city_id.city' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on tinh_thanh_pho_ntd.flc_user_ntd=city_id.city /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.city_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id /home/cap-nhat-thong-tin.php
+10/11/2020 09:46:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id' at line 1
+select * from flc_user_ntd where ma_ntd = 73  inner join city on flc_user_ntd.tinh_thanh_pho_ntd=city.cit_id /home/cap-nhat-thong-tin.php
+11/11/2020 02:21:49 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flc_user_ntd where sdt_ntd = ''' at line 1
+select ten_ntd form flc_user_ntd where sdt_ntd = '' /home/loginntd.php
+11/11/2020 02:27:10 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flc_user_ntd where sdt_ntd = ''' at line 1
+select ten_ntd form flc_user_ntd where sdt_ntd = '' /home/loginntd.php
+11/11/2020 02:27:12 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flc_user_ntd where sdt_ntd = ''' at line 1
+select ten_ntd form flc_user_ntd where sdt_ntd = '' /home/loginntd.php
+11/11/2020 02:27:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flc_user_ntd where sdt_ntd = 'w'' at line 1
+select ten_ntd form flc_user_ntd where sdt_ntd = 'w' /home/loginntd.php
+11/11/2020 02:27:38 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flc_user_ntd where sdt_ntd = '08156311212'' at line 1
+select ten_ntd form flc_user_ntd where sdt_ntd = '08156311212' /home/loginntd.php
+11/11/2020 02:31:07 AM Query was empty
+ /home/loginntd.php
+11/11/2020 02:31:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flc_user_ntd where sdt_ntd = '08156311212'' at line 1
+select ten_ntd form flc_user_ntd where sdt_ntd = '08156311212' /home/loginntd.php
+13/11/2020 08:05:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pạ'fjódpf','','1111111','3','1607014800','1606928400','1606582800','160701480' at line 1
+INSERT INTO flc_viec_lam(`ten_viec_lam`,`linh_vuc`,`kinh_nghiem`,`hinh_thuc`,`noi_lam_viec`,`mo_ta`,`the_loai_chi_phi`,`chi_phi`,`chi_phi_theo_ngay`,`ngay_bat_dau_dat_gia`,`ngay_dat_gia_ket_thuc`,`ngay_bat_dau_lam_viec`,`thoi_han_lam_viec`,`logo_cty`,`ma_nguoi_dang`) VALUES ('jjhj','3','2','4','4','oihdváđoánpf'pạ'fjódpf','','1111111','3','1607014800','1606928400','1606582800','1607014800','','99 ')  /home/PostJobPartTime.php
+13/11/2020 08:06:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pạ'fjódpf','1','1111111','3','1607014800','1606928400','1606582800','16070148' at line 1
+INSERT INTO flc_viec_lam(`ten_viec_lam`,`linh_vuc`,`kinh_nghiem`,`hinh_thuc`,`noi_lam_viec`,`mo_ta`,`the_loai_chi_phi`,`chi_phi`,`chi_phi_theo_ngay`,`ngay_bat_dau_dat_gia`,`ngay_dat_gia_ket_thuc`,`ngay_bat_dau_lam_viec`,`thoi_han_lam_viec`,`logo_cty`,`ma_nguoi_dang`) VALUES ('jjhj','3','2','4','4','oihdváđoánpf'pạ'fjódpf','1','1111111','3','1607014800','1606928400','1606582800','1607014800','','99 ')  /home/PostJobPartTime.php
+13/11/2020 08:07:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pạ'fjódpf','','1','1111111','3','1607014800','1606928400','1606582800','16070' at line 1
+INSERT INTO flc_viec_lam(`ten_viec_lam`,`linh_vuc`,`kinh_nghiem`,`hinh_thuc`,`noi_lam_viec`,`mo_ta`,`tai_lieu`,`the_loai_chi_phi`,`chi_phi`,`chi_phi_theo_ngay`,`ngay_bat_dau_dat_gia`,`ngay_dat_gia_ket_thuc`,`ngay_bat_dau_lam_viec`,`thoi_han_lam_viec`,`logo_cty`,`ma_nguoi_dang`) VALUES ('jjhj','3','2','4','4','oihdváđoánpf'pạ'fjódpf','','1','1111111','3','1607014800','1606928400','1606582800','1607014800','','99 ')  /home/PostJobPartTime.php
+13/11/2020 08:08:02 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pạ'fjódpf','Thực-tập-PHP.pdf','1','1111111','3','1607014800','1606928400'' at line 1
+INSERT INTO flc_viec_lam(`ten_viec_lam`,`linh_vuc`,`kinh_nghiem`,`hinh_thuc`,`noi_lam_viec`,`mo_ta`,`tai_lieu`,`the_loai_chi_phi`,`chi_phi`,`chi_phi_theo_ngay`,`ngay_bat_dau_dat_gia`,`ngay_dat_gia_ket_thuc`,`ngay_bat_dau_lam_viec`,`thoi_han_lam_viec`,`logo_cty`,`ma_nguoi_dang`) VALUES ('jjhj','3','2','4','4','oihdváđoánpf'pạ'fjódpf','Thực-tập-PHP.pdf','1','1111111','3','1607014800','1606928400','1606582800','1607014800','','99 ')  /home/PostJobPartTime.php
+13/11/2020 08:09:09 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pạ'fjódpf','New Microsoft Word Document.docx','1','1111111','3','1607014800',' at line 1
+INSERT INTO flc_viec_lam(`ten_viec_lam`,`linh_vuc`,`kinh_nghiem`,`hinh_thuc`,`noi_lam_viec`,`mo_ta`,`tai_lieu`,`the_loai_chi_phi`,`chi_phi`,`chi_phi_theo_ngay`,`ngay_bat_dau_dat_gia`,`ngay_dat_gia_ket_thuc`,`ngay_bat_dau_lam_viec`,`thoi_han_lam_viec`,`logo_cty`,`ma_nguoi_dang`) VALUES ('jjhj','3','2','4','4','oihdváđoánpf'pạ'fjódpf','New Microsoft Word Document.docx','1','1111111','3','1607014800','1606928400','1606582800','1607014800','','99 ')  /home/PostJobPartTime.php
+16/11/2020 03:02:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inner join city on flc_user_ntd.noi_lam_viec=city.cit_id
+         where ma_nguo' at line 3
+select * from flc_viec_lam
+         inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd,
+         inner join city on flc_user_ntd.noi_lam_viec=city.cit_id
+         where ma_nguoi_dang = 99  /home/JobFreelancer.php
+16/11/2020 03:02:20 AM Unknown column 'flc_user_ntd.noi_lam_viec' in 'on clause'
+select * from flc_viec_lam
+         inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+         inner join city on flc_user_ntd.noi_lam_viec=city.cit_id
+         where ma_nguoi_dang = 99  /home/JobFreelancer.php
+16/11/2020 03:02:21 AM Unknown column 'flc_user_ntd.noi_lam_viec' in 'on clause'
+select * from flc_viec_lam
+         inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+         inner join city on flc_user_ntd.noi_lam_viec=city.cit_id
+         where ma_nguoi_dang = 99  /home/JobFreelancer.php
+16/11/2020 07:43:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+select * from city where cit_id =  /home/JobFreelancer.php
+16/11/2020 07:45:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+select * from city where cit_id =  /home/JobFreelancer.php
+16/11/2020 07:46:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+select * from city where cit_id =  /home/JobFreelancer.php
+16/11/2020 07:46:45 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+select * from city where cit_id =  /home/JobFreelancer.php
+16/11/2020 07:46:45 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+select * from city where cit_id =  /home/JobFreelancer.php
+16/11/2020 07:48:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+select * from city where cit_id =  /home/JobFreelancer.php
+=======
+07/11/2020 10:23:24 AM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '17:23:24','2020-11-07 17:23:24')' at line 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Lê Đức Hoành','0965435826','7c222fb2927d828af22f592134e8932480637c0d','','Thái Bình','2','281','Lập trình viên','2','3','','','','','','','','','','','',2020-11-07 17:23:24','2020-11-07 17:23:24') /hourly-job/home/registration1.php
+07/11/2020 10:26:20 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv =  /hourly-job/home/kinhnghiemlamviec.php
+08/11/2020 02:06:59 PM Unknown column 'tag_active' in 'where clause'
+SELECT cit_id, cit_name,cit_parent FROM city2 WHERE tag_active = 1 /
+08/11/2020 02:07:20 PM Unknown column 'tag_active' in 'where clause'
+SELECT cit_id, cit_name,cit_parent FROM city2 WHERE tag_active = 1 /
+08/11/2020 02:08:22 PM Unknown column 'tag_active' in 'where clause'
+SELECT cit_id, cit_name,cit_parent FROM city2 WHERE tag_active = 1 /
+08/11/2020 02:13:19 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:13:19','2020-11-08 21:13:19')' at line 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Anh Hoành','0965435826','7c4a8d09ca3762af61e59520943dc26494f8941b','','Thái Bình','1','66','Lập trình viên','2,3','3','','','','','','','','','','','',2020-11-08 21:13:19','2020-11-08 21:13:19') /hourly-job/home/registration1.php
+08/11/2020 02:13:53 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:13:53','2020-11-08 21:13:53')' at line 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Anh Hoành','0965435826','7c4a8d09ca3762af61e59520943dc26494f8941b','','Thái Bình','3','228','Lập trình viên','2,3','3','','','','','','','','','','','',2020-11-08 21:13:53','2020-11-08 21:13:53') /hourly-job/home/registration1.php
+08/11/2020 02:15:50 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:15:50','2020-11-08 21:15:50')' at line 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Anh Hoành','0965435826','7c4a8d09ca3762af61e59520943dc26494f8941b','','Thái Bình','3','228','Lập trình viên','2,3','3','','','','','','','','','','','',2020-11-08 21:15:50','2020-11-08 21:15:50') /hourly-job/home/registration1.php
+08/11/2020 02:16:17 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:16:17','2020-11-08 21:16:17')' at line 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Lê Đức Hoành','0965435826','7c222fb2927d828af22f592134e8932480637c0d','','Thái Bình11','1','67','Lập trình viên','2,3','83','','','','','','','','','','','',2020-11-08 21:16:17','2020-11-08 21:16:17') /hourly-job/home/registration1.php
+08/11/2020 02:16:31 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:16:31','2020-11-08 21:16:31')' at line 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Lê Đức Hoành','0965435826','7c222fb2927d828af22f592134e8932480637c0d','','Thái Bình11','1','67','Lập trình viên','2,3','83','','','','','','','','','','','',2020-11-08 21:16:31','2020-11-08 21:16:31') /hourly-job/home/registration1.php
+08/11/2020 02:17:43 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:17:43','2020-11-08 21:17:43')' at line 1
+insert into vltg_user_uv values('','Ellipse 82.png','Lê Đức Hoành','0337019846','7c222fb2927d828af22f592134e8932480637c0d','7c222fb2927d828af22f592134e8932480637c0d','Thái Bình11','1','67','Lập trình viên','4','83','','','','','','','','','','','',2020-11-08 21:17:43','2020-11-08 21:17:43') /hourly-job/home/registration1.php
+08/11/2020 02:20:10 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:20:10','2020-11-08 21:20:10')' at line 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Lê Đức Hoành','0337019846','7c4a8d09ca3762af61e59520943dc26494f8941b','7c4a8d09ca3762af61e59520943dc26494f8941b','Thái Bình11','1','67','Lập trình viên','3','3','','','','','','','','','','','',2020-11-08 21:20:10','2020-11-08 21:20:10') /hourly-job/home/registration1.php
+08/11/2020 02:21:57 PM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '21:21:57','2020-11-08 21:21:57')' at line 1
+insert into vltg_user_uv values('','Ellipse 82 (7).png','Lê Đức Hoành','0965435826','7c4a8d09ca3762af61e59520943dc26494f8941b','7c4a8d09ca3762af61e59520943dc26494f8941b','Thái Bình11','2','281','Lập trình viên','4','4',2020-11-08 21:21:57','2020-11-08 21:21:57') /hourly-job/home/registration1.php
+08/11/2020 02:27:51 PM  Column count doesn't match value count at row 1
+insert into vltg_user_uv values('','Ellipse 77 (1).png','Lê Đức Hoành','0337019846','7c4a8d09ca3762af61e59520943dc26494f8941b','7c4a8d09ca3762af61e59520943dc26494f8941b','Thái Bình','2','281','Lập trình viên','3','3') /hourly-job/home/registration1.php
+08/11/2020 02:58:36 PM Duplicate entry '273' for key 'PRIMARY'
+UPDATE vltg_user_uv SET `id_uv` = '273',`ngaysinh_uv` = '3-3-2020',`gioitinh_uv` = '1',`tinhtrang_uv` = '1',`name_uv` = 'Lê Đức Hoành',`email_uv` = 'lehoanhtro@gmail.com',`diachi_uv` = 'Thái Bình City on',`huyen_uv` = '122' WHERE 1   /hourly-job/home/hoanthienhoso.php
+08/11/2020 02:59:42 PM Duplicate entry '273' for key 'PRIMARY'
+UPDATE vltg_user_uv SET `id_uv` = '273',`ngaysinh_uv` = '3-3-2020',`gioitinh_uv` = '1',`tinhtrang_uv` = '1',`name_uv` = 'Lê Đức Hoành1222',`email_uv` = 'lehoanhtro@gmail.com',`diachi_uv` = 'Thái Bình City on',`huyen_uv` = '281' WHERE 1   /hourly-job/home/hoanthienhoso.php
+09/11/2020 12:54:34 AM Unknown column 'tag_active' in 'where clause'
+SELECT cit_id, cit_name,cit_parent FROM city2 WHERE tag_active = 1 /
+09/11/2020 02:06:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM vltg_user_uv where id_uv=  /hourly-job/home/chitietungvien.php
+09/11/2020 02:06:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM vltg_user_uv where id_uv=  /hourly-job/home/chitietungvien.php
+09/11/2020 02:42:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.' at line 1
+SELECT * FROM vltg_user_uv where id_uv=.0. /hourly-job/home/chitietungvien.php
+09/11/2020 04:03:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv = '.272 /hourly-job/home/chitietungvien.php
+09/11/2020 04:03:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv = '.272 /hourly-job/home/chitietungvien.php
+09/11/2020 04:03:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv = '.272 /hourly-job/home/chitietungvien.php
+09/11/2020 04:03:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv = '.272 /hourly-job/home/chitietungvien.php
+09/11/2020 04:03:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv = '.272 /hourly-job/home/chitietungvien.php
+09/11/2020 04:03:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv = '.272 /hourly-job/home/chitietungvien.php
+09/11/2020 04:03:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv = '.272 /hourly-job/home/chitietungvien.php
+09/11/2020 06:53:40 AM Unknown column 'tag_active' in 'where clause'
+SELECT cit_id, cit_name,cit_parent FROM city2 WHERE tag_active = 1 /
+09/11/2020 07:24:03 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM `vltg_kinh_nghiem` WHERE id_uv =  /hourly-job/home/kinhnghiemlamviec.php
+10/11/2020 01:40:37 AM Unknown column 'mat_khau_uv' in 'where clause'
+select name_uv from vltg_user_uv where id_uv = '' and mat_khau_uv = '' /hourly-job/home/doimatkhau.php
+10/11/2020 01:41:37 AM Unknown column 'password_uv_moi' in 'where clause'
+select name_uv from vltg_user_uv where id_uv = '' and password_uv_moi = '' /hourly-job/home/doimatkhau.php
+10/11/2020 01:42:29 AM Unknown column 'password_uv_moi' in 'where clause'
+select name_uv from vltg_user_uv where id_uv = '' and password_uv_moi = '' /hourly-job/home/doimatkhau.php
+10/11/2020 02:05:34 AM Unknown column 'category' in 'where clause'
+select * from city where category ='3' /hourly-job/home/congviecmongmuon.php
+10/11/2020 06:54:15 AM Unknown column 'tag_active' in 'where clause'
+SELECT cit_id, cit_name,cit_parent FROM city2 WHERE tag_active = 1 /
+10/11/2020 07:36:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+select * from category where cat_name =83,3 /hourly-job/home/congviecmongmuon.php
+10/11/2020 07:37:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+select * from category where cat_id =83,3 /hourly-job/home/congviecmongmuon.php
+10/11/2020 07:37:29 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+select * from category where cat_id =83,3 /hourly-job/home/congviecmongmuon.php
+10/11/2020 07:37:29 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+select * from category where cat_id =83,3 /hourly-job/home/congviecmongmuon.php
+10/11/2020 07:37:49 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+select * from category where cat_id =83,3 /hourly-job/home/congviecmongmuon.php
+10/11/2020 07:38:41 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+select * from category where cat_id =83,3 /hourly-job/home/congviecmongmuon.php
+10/11/2020 07:38:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+select * from category where cat_id =83,3 /hourly-job/home/congviecmongmuon.php
+10/11/2020 07:45:12 AM Unknown column 'id_uv' in 'where clause'
+select * from category where id_uv=3 /hourly-job/home/congviecmongmuon.php
+12/11/2020 02:51:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` where id_uv='272 /hourly-job/home/chitietungvien.php
+12/11/2020 02:51:45 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''272' at line 1
+SELECT * FROM `vltg_kinh_nghiem` where id_uv='272 /hourly-job/home/chitietungvien.php
+16/11/2020 05:55:23 AM Cannot select database: viec365_tv365com /home/CompleteProfile.php
+<<<<<<< HEAD
+16/11/2020 08:59:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM flc_ky_nang WHERE ma_linh_vuc  =  /home/ky_nang.php
+16/11/2020 08:59:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM flc_ky_nang WHERE ma_linh_vuc  =  /home/ky_nang.php
+16/11/2020 03:42:32 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+16/11/2020 03:50:45 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+16/11/2020 03:51:02 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+16/11/2020 03:51:10 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 /home/CompleteProfile.php
+16/11/2020 03:51:25 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+16/11/2020 03:51:48 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 /home/CompleteProfile.php
+16/11/2020 03:52:14 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 /home/CompleteProfile.php
+16/11/2020 03:52:19 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+16/11/2020 03:52:51 PM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:03:50 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:05:38 AM Table 'job.flc_linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM flc_linh_vuc_lam_viec2 /home/CompleteProfile.php
+17/11/2020 01:08:16 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 /home/CompleteProfile.php
+17/11/2020 01:08:30 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:08:46 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:08:50 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:09:25 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:09:31 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:09:38 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:10:16 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:10:47 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:11:01 AM Table 'job.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:14:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:18:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:18:11 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:18:12 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:18:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:19:03 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:30:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:30:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:32:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 01:32:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:04:14 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:04:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:04:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:04:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:05:05 AM Unknown column 'Array' in 'where clause'
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc = Array ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:05:06 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:05:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:05:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:05:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:21:38 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:21:50 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:21:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:22:47 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:23:11 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:23:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:24:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:24:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 02:25:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:07:40 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:07:41 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:07:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:07:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:07:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:07:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:03 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:04 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:04 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:09 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:16:52 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:08:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:09:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:09:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:12:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:12:42 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:25:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:02 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:03 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:04 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:06 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:14 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:52 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:55 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:55 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:55 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:28:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:29:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:29:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:29:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 04:29:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:30:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:31:03 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:32:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:33:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:38:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:38:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:38:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:39:52 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:39:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:40:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:41:47 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:42:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:45:02 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:45:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:45:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:45:41 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:48:02 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:50:11 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:52:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:54:50 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 08:55:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 09:07:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 09:07:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 09:07:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 09:11:02 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 09:11:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:07:57 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:00 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:02 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:04 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 03:08:05 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+17/11/2020 05:21:36 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+17/11/2020 06:36:29 PM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+18/11/2020 01:06:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+18/11/2020 01:07:06 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+18/11/2020 01:24:14 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+18/11/2020 01:24:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+18/11/2020 01:24:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+18/11/2020 01:24:20 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+18/11/2020 01:24:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ma_linh_vuc' at line 1
+SELECT * FROM `flc_ky_nang` WHERE ma_linh_vuc =  ORDER BY ma_linh_vuc /ajax/ky_nang.php
+18/11/2020 02:04:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+18/11/2020 03:09:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php?ho_so=
+18/11/2020 04:20:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+18/11/2020 05:48:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+18/11/2020 07:04:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+18/11/2020 08:05:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php?ho_so=
+18/11/2020 09:06:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+18/11/2020 09:18:19 AM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''120)' at line 2
+INSERT INTO flc_file_anh_hs(anh_ho_so,ma_user)
+		VALUES  ('','120) /home/CompleteProfile.php
+18/11/2020 09:26:49 AM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''120)' at line 2
+INSERT INTO flc_file_anh_hs(anh_ho_so,ma_user)
+		VALUES  ('Balenciaga Track White Orange.jpg','120) /home/CompleteProfile.php
+18/11/2020 09:29:48 AM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''120)' at line 2
+INSERT INTO flc_file_anh_hs(ten_anh,ma_user)
+		VALUES  ('Balenciaga Track White Orange.jpg','120) /home/CompleteProfile.php
+18/11/2020 09:29:50 AM  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''120)' at line 2
+INSERT INTO flc_file_anh_hs(ten_anh,ma_user)
+		VALUES  ('Balenciaga Track White Orange.jpg','120) /home/CompleteProfile.php
+18/11/2020 10:09:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+SELECT * FROM flc_ky_nang where  ma_ky_nang in() /home/CompleteProfile.php
+=======
+>>>>>>> 12bb0cb9ff663446bb65b5a9c100a529c228166a
+16/11/2020 11:33:53 PM Table 'viec365_tv365com.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+16/11/2020 11:34:13 PM Table 'viec365_tv365com.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:09:00 AM Table 'viec365_tv365com.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:10:10 AM Table 'viec365_tv365com.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 01:11:51 AM Table 'viec365_tv365com.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+17/11/2020 07:13:25 AM Table 'viec365_tv365com.linh_vuc_lam_viec2' doesn't exist
+SELECT * FROM linh_vuc_lam_viec2 WHERE ma_linh_vuc = 1 /home/CompleteProfile.php
+>>>>>>> 8dec9da24265d70f020e916c8380093c7c726f12
+19/11/2020 09:02:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vuc =3' at line 3
+select * from flc_viec_lam 
+            inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+       where linh_vuc = 2 or linh vuc =3 /xl_code/xl_tim_kiem_nang_cao.php
+19/11/2020 09:02:06 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vuc =3 or linh vuc =4' at line 3
+select * from flc_viec_lam 
+            inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+       where linh_vuc = 2 or linh vuc =3 or linh vuc =4 /xl_code/xl_tim_kiem_nang_cao.php
+19/11/2020 09:03:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vuc = '7'' at line 3
+select * from flc_viec_lam 
+            inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+       where linh_vuc = '6' or linh vuc = '7' /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 01:24:55 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'andthanh_pho = ''' at line 3
+select * from flc_viec_lam 
+            inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+       where linh_vuc = '' or linh_vuc = '3'andthanh_pho = '' /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 01:25:19 AM Unknown column 'thanh_pho' in 'where clause'
+select * from flc_viec_lam 
+            inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+       where linh_vuc = '' or linh_vuc = '3' and  thanh_pho = '' /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 01:25:19 AM Unknown column 'thanh_pho' in 'where clause'
+select * from flc_viec_lam 
+            inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+       where linh_vuc = '' and  thanh_pho = '' or linh_vuc = '3' /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 02:55:39 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' or linh_vuc = '1' or linh_vuc = '2' or linh_vuc = '3' or linh_vuc = '4' or li' at line 3
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = ' or linh_vuc = '0' or linh_vuc = '1' or linh_vuc = '2' or linh_vuc = '3' or linh_vuc = '4' or linh_vuc = '5' or linh_vuc = '6' or linh_vuc = '7' or linh_vuc = '8' and  noi_lam_viec = '' or noi_lam_viec = 'on' /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 03:18:48 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on ',)' at line 3
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' or linh_vuc = '2' and on ',) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 03:26:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on'' at line 3
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' or linh_vuc = '1' and noi_lam_viec = FIND_IN_SET(''on' /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 03:26:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 2'' at line 3
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '1' and noi_lam_viec = FIND_IN_SET(''on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 2' /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 03:28:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 1',noi_lam_viec)' at line 3
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' and noi_lam_viec = FIND_IN_SET(''on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 1',noi_lam_viec) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 03:28:02 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1',noi_lam_viec)' at line 3
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' or linh_vuc = '1' and noi_lam_viec = FIND_IN_SET(''1',noi_lam_viec) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 07:18:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '8' and noi_lam_viec = FIND_IN_SET('1',noi_lam_viec)and /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 07:21:47 AM Unknown column 'ma_ky_nang' in 'where clause'
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' and noi_lam_viec = FIND_IN_SET('on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 1 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 2 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 3 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 4 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 5',noi_lam_viec) and ma_ky_nang = FIND_IN_SET('Array',ma_ky_nang) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 07:22:14 AM Unknown column 'ma_ky_nang' in 'where clause'
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' and noi_lam_viec = FIND_IN_SET('on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 1 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 2 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 3 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 4 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 5',noi_lam_viec) and ma_ky_nang = FIND_IN_SET('on ',ma_ky_nang) or ma_ky_nang = FIND_IN_SET(' 1 ',ma_ky_nang) or ma_ky_nang = FIND_IN_SET(' 2 ',ma_ky_nang) or ma_ky_nang = FIND_IN_SET(' 3 ',ma_ky_nang) or ma_ky_nang = FIND_IN_SET(' 4 ',ma_ky_nang) or ma_ky_nang = FIND_IN_SET(' 5',ma_ky_nang) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 07:24:44 AM Unknown column 'ma_ky_nang' in 'where clause'
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' or linh_vuc = '1' or linh_vuc = '2' or linh_vuc = '3' or linh_vuc = '4' or linh_vuc = '5' or linh_vuc = '6' or linh_vuc = '7' or linh_vuc = '8' and noi_lam_viec = FIND_IN_SET('on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 1 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 2 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 3 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 4 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 5',noi_lam_viec) and ma_ky_nang = FIND_IN_SET('on',ma_ky_nang) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 07:31:16 AM Unknown column 'ma_ky_nang' in 'where clause'
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '0' or linh_vuc = '1' or linh_vuc = '2' or linh_vuc = '3' or linh_vuc = '4' or linh_vuc = '5' or linh_vuc = '6' or linh_vuc = '7' or linh_vuc = '8' and noi_lam_viec = FIND_IN_SET('on ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 1 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 2 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 3 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 4 ',noi_lam_viec) or noi_lam_viec = FIND_IN_SET(' 5',noi_lam_viec) and ma_ky_nang = FIND_IN_SET('on',ma_ky_nang) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 07:47:57 AM Unknown column 'ma_ky_nang' in 'where clause'
+select * from flc_viec_lam 
+          inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+     where linh_vuc = '5' and noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) and ma_ky_nang = FIND_IN_SET('1',ma_ky_nang) /xl_code/xl_tim_kiem_nang_cao.php
+20/11/2020 10:43:42 AM Query was empty
+ /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:50:16 AM Query was empty
+ /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:50:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND ()' at line 1
+SELECT * FROM flc_viec_lam where (linh_vuc = 4) AND () AND () /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:51:40 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM flc_viec_lam where (linh_vuc = 3 or linh_vuc = 4 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:51:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM flc_viec_lam where (linh_vuc = 3 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:51:45 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM flc_viec_lam where (linh_vuc = 3 or linh_vuc = 4 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:53:14 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_vie' at line 1
+SELECT * FROM flc_viec_lam where ( AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:53:17 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_vie' at line 1
+SELECT * FROM flc_viec_lam where ( AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 01:54:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec)) AND (FIND_IN_SET('1',ma_ki_nang))' at line 1
+SELECT * FROM flc_viec_lam where ( AND (FIND_IN_SET('1',noi_lam_viec)) AND (FIND_IN_SET('1',ma_ki_nang)) /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:10:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where ( /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:10:42 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where ( /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:10:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where ( /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:10:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where ( /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:51:49 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where ( /home/danh-sach-viec-lam.php?idcate=1
+21/11/2020 02:52:09 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where ( /home/danh-sach-viec-lam.php?idcate=1
+21/11/2020 02:53:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where ( /home/danh-sach-viec-lam.php?idcate=1
+21/11/2020 02:55:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where linh_vuc = 2) /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:55:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where linh_vuc = 1 or linh_vuc = 2) /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:55:47 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where linh_vuc = 2) /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 02:55:48 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where linh_vuc = 1 or linh_vuc = 2) /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:35:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:48:10 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:48:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 3 or linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:48:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:48:40 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:48:46 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 1)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:49:04 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 2)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:49:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 2)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:49:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:49:46 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 3 or linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:49:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 3)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:50:09 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 03:51:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4 or linh_vuc = 5)where loai_viec_lam = /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 04:23:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =2' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4)where loai_viec_lam =2 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 04:23:39 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam =2' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4) where loai_viec_lam =2 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 04:23:47 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam = 2' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 4) where loai_viec_lam = 2 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 04:24:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where loai_viec_lam = 2' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 1 or linh_vuc = 4) where loai_viec_lam = 2 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 04:26:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loai_viec_lam =2' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 1)loai_viec_lam =2 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 04:26:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loai_viec_lam = 2' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 3)loai_viec_lam = 2 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 04:27:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loai_viec_lam = 2' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where (linh_vuc = 3) loai_viec_lam = 2 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 07:39:11 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or cit_id = 3 or cit_id = 4' at line 1
+select * from city where2 or cit_id = 3 or cit_id = 4 /home/danh-sach-viec-lam.php?idcate=0
+21/11/2020 07:50:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY ma_viec_Lam DESC' at line 2
+select * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntdORDER BY ma_viec_Lam DESC /home/danh-sach-viec-lam.php?idcate=0
+21/11/2020 08:05:48 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND loai_viec_lam = 1' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where AND loai_viec_lam = 1 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:05:49 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND loai_viec_lam = 1' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where AND loai_viec_lam = 1 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:05:50 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND loai_viec_lam = 1' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where AND loai_viec_lam = 1 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:05:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND loai_viec_lam = 1' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where AND loai_viec_lam = 1 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:06:51 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND loai_viec_lam = 1' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where AND loai_viec_lam = 1 /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:19:13 AM Unknown column 'flc_user_ntd.ma_ntdINNER' in 'on clause'
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntdINNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nang where loai_viec_lam = 1 ORDER BY ma_viec_Lam DESC /home/danh-sach-viec-lam.php?idcate=1
+21/11/2020 08:42:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:43:14 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:43:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 08:43:17 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 10:31:20 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 10:50:19 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+21/11/2020 10:57:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('3',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('3',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+23/11/2020 02:40:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+23/11/2020 02:40:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+23/11/2020 02:40:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+23/11/2020 02:58:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+23/11/2020 02:58:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+23/11/2020 10:19:45 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+23/11/2020 10:28:50 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 01:51:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 01:52:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 02:11:41 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 02:53:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 05:21:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 05:21:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 07:19:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 07:19:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('on',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('on',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('on',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('on',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('on',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('on',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+24/11/2020 09:41:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('2',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('2',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+25/11/2020 06:54:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+25/11/2020 07:08:19 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+25/11/2020 08:03:19 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+25/11/2020 08:35:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+25/11/2020 08:55:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+25/11/2020 08:55:44 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+25/11/2020 08:55:45 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:06:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:26 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('on',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('1',noi_lam_vi' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('on',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('1',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('on',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_vi' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('on',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('3',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:29 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('4',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('4',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('4',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('5',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 01:07:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_vie' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('2',noi_lam_viec) or noi_lam_viec = FIND_IN_SET('5',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 02:06:04 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 02:06:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 02:35:48 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =Array ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =Array ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-flc0.html
+26/11/2020 02:38:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc = ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc = ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-flc0.html
+26/11/2020 02:40:19 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FIND_IN_SET('1',noi_lam_viec) ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangAND FIND_IN_SET('1',noi_lam_viec) ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-tai-ha-noi-flt1-flc0.html
+26/11/2020 02:42:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:29 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 02:42:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'linh_vuc =3 ORDER BY ma_viec_Lam DESC' at line 2
+SELECT * from flc_viec_lam
+    inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nangwhere linh_vuc =3 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-viet-lach-dich-thuat-fln3-flc0.html
+26/11/2020 03:11:04 AM Unknown column 'COUNT' in 'field list'
+SELECT COUNT from flc_viec_lam
+   inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nang ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-flc0.html
+26/11/2020 03:11:11 AM Unknown column 'COUNT' in 'field list'
+SELECT COUNT from flc_viec_lam
+   inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nang where loai_viec_lam = 1 ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-flc1.html
+26/11/2020 03:11:11 AM Unknown column 'COUNT' in 'field list'
+SELECT COUNT from flc_viec_lam
+   inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd INNER JOIN flc_ky_nang on flc_viec_lam.ma_ki_nang=flc_ky_nang.ma_ky_nang ORDER BY ma_viec_Lam DESC /tim-viec-lam-freelancer-flc0.html
+26/11/2020 04:04:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php
+26/11/2020 04:05:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (FIND_IN_SET('1',noi_lam_viec))' at line 3
+SELECT * FROM flc_viec_lam
+		inner join flc_user_ntd on flc_viec_lam.ma_nguoi_dang=flc_user_ntd.ma_ntd
+	  where  AND (FIND_IN_SET('1',noi_lam_viec)) /freelancer/xl_code/xl_tim_kiem_nang_cao.php

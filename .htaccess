@@ -1,0 +1,273 @@
+RewriteEngine On    
+RewriteBase /   
+
+RewriteRule  ^$ /home/home.php
+#RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+#RewriteRule ^.*$ https://timviec365.com%{REQUEST_URI} [R=301,L]
+RewriteCond %{SERVER_PORT} 8080
+RewriteRule ^.*$ https://timviec365.com%{REQUEST_URI} [R=301,L]
+
+<IfModule mod_rewrite.c>
+    #RewriteEngine On
+    #RewriteCond %{HTTPS} off
+    #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    #RewriteCond %{HTTP_HOST} www\.(.+)$ [NC]
+    #RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+RewriteEngine on    
+RewriteBase /
+RewriteRule  ^$ /home/home.php
+
+RewriteCond %{HTTP_HOST} www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+#Tags 
+RewriteRule ^tim-viec-lam-([^/]+)k([0-9]+).html?$      /home/cate_tag.php?idTag=$2&%{QUERY_STRING} [NE,L]
+
+# Cate
+RewriteRule ^tim-viec-lam-them.html  home/timvieclamthem.php
+RewriteRule ^([^/]+)-c([0-9]+)l([0-9]+).html home/cate.php?city=$2&cate=$3&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-c([0-9]+).html home/cate.php?city=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-l([0-9]+).html home/cate.php?cate=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^viec-lam-hap-dan.html home/viechapdan.php
+RewriteRule ^viec-lam-luong-cao.html home/viecluongcao.php
+
+# Cate UV
+RewriteRule ^ung-vien-tim-viec.html home/list_ungvien.php [NE,L]
+RewriteRule ^([^/]+)-c([0-9]+)l([0-9]+) home/list_ungvien.php?city=$2&cate=$3&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-c([0-9]+) home/list_ungvien.php?city=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-l([0-9]+) home/list_ungvien.php?cate=$2&%{QUERY_STRING} [NE,L]
+
+#Search
+RewriteRule ^tim-kiem home/search.php?%{QUERY_STRING} [NE,L]
+
+#Search UV
+RewriteRule ^tim-ung-vien home/search_uv.php?%{QUERY_STRING} [NE,L]
+
+# Detail
+RewriteRule ^([^/]+)-([0-9]+).html home/detail.php?newid=$2&%{QUERY_STRING} [NE,L]
+
+# Ho so ung vien
+RewriteRule ^ho-so-ung-vien.html /home/hoso_uv.php
+RewriteRule ^ung-vien/([^/]+)-uv([0-9]+).html?$ home/chitiet_uv.php?uv_id=$2&%{QUERY_STRING} [NE,L]
+
+#Company
+RewriteRule ^([^/]+)-n([0-9]+) home/company.php?coid=$2&%{QUERY_STRING} [NE,L]
+
+# Contact
+RewriteRule ^lien-he$ /home/contact.php
+
+# login
+RewriteRule ^dang-nhap-chung.html$ /home/login.php
+RewriteRule ^dang-nhap-nha-tuyen-dung.html /home/login_ntd.php
+RewriteRule ^dang-nhap-ung-vien.html /home/login_uv.php
+RewriteRule ^dang-ky-chung.html$	/home/register.php
+RewriteRule ^dang-ky-nha-tuyen-dung.html /home/register_ntd.php
+RewriteRule ^dang-ky-ung-vien.html /home/register_uv.php
+RewriteRule ^dang-ky-ung-vien-truc-tuyen.html /home/register_uv_tt.php
+RewriteRule ^dang-xuat?$ codelogin/logout.php
+
+# Page
+RewriteRule ^viec-lam-theo-tinh-thanh.html /home/viec_theo_city.php
+RewriteRule ^viec-tim-nguoi.html             /home/viectheonganh.php
+RewriteRule ^viec-lam-theo-nganh-nghe.html   /home/viectheonganh.php
+
+# Xac thuc
+RewriteRule ^xac-thuc-tai-khoan-ung-vien.html /home/xac_thuc_user.php
+RewriteRule ^xac-thuc-tai-khoan-ung-vien-thanh-cong.html /home/xac_thuc_user_ok.php
+RewriteRule ^xac-thuc-tai-khoan-nha-tuyen-dung.html /home/xac_thuc_ntd.php
+RewriteRule ^xac-thuc-tai-khoan-nha-tuyen-dung-thanh-cong.html /home/xac_thuc_ntd_ok.php
+RewriteRule ^quen-mat-khau-ung-vien.html?$ /home/quen_mk.php
+RewriteRule ^quen-mat-khau-nha-tuyen-dung.html?$ /home/quen_mk_ntd.php
+RewriteRule ^doi-mat-khau.html home/doi_mk.php?%{QUERY_STRING} [NE,L]
+RewriteRule ^doi-mat-khau-nha-tuyen-dung.html home/doi_mk_ntd.php?%{QUERY_STRING} [NE,L]
+
+# Upload CV
+RewriteRule ^up-load-cv.html /home/upload_cv_uv.php
+
+#CV
+RewriteRule ^tao-cv-online.html                                  /home/cv_taocvonline.php
+RewriteRule ^mau-cv.html                                         /home/cv_quan_li.php
+RewriteRule ^cv-ung-vien-da-luu.html                             /home/cv_uv_daluu.php
+RewriteRule ^tao-cv-online/([^/]+).html                          /home/cv_create.php?alias=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^mau-cv/tieng-([^/]+).html                           /home/cv_cate.php?alias=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^mau-cv/([^/]+).html                                 /home/cv_cate_nganh.php?alias=$1&%{QUERY_STRING} [NE,L]
+
+# NTD
+RewriteRule ^nha-tuyen-dung/thong-tin-chung.html /home/thong_tin_chung_ntd.php
+RewriteRule ^thong-tin-tai-khoan-nha-tuyen-dung.html /home/thong_tin_ntd.php
+RewriteRule ^nha-tuyen-dung/dang-tin.html /home/dang_tin.php
+RewriteRule ^nha-tuyen-dung/([0-9]+)/sua-tin.html?$ /home/sua_tin.php?new_id=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^nha-tuyen-dung/ho-so-da-luu.html /home/hoso_daluu.php
+RewriteRule ^nha-tuyen-dung/ho-so-ung-tuyen.html /home/hoso_ungtuyen.php
+RewriteRule ^nha-tuyen-dung/tin-da-dang.html /home/company_manager_allnews.php
+RewriteRule ^nha-tuyen-dung/ho-so-loc-diem.html   /home/company_manager_filter_points.php
+RewriteRule ^nha-tuyen-dung/ho-so-trung-tuyen.html    /home/hoso_trungtuyen.php
+RewriteRule ^nha-tuyen-dung/doi-mk.html          /home/company_manager_changepass.php
+RewriteRule ^feedback.html$                       /home/feedback.php
+RewriteRule ^dang-tin-thanh-cong.html$            /home/dangtin_thanhcong.php
+RewriteRule ^nha-tuyen-dung/tin-nhan.html?$            /home/company_message.php
+RewriteRule ^nha-tuyen-dung/quan-ly-dich-vu.html?$    /home/service_management.php
+
+
+#Don-thu
+RewriteRule ^don-xin-viec/don-xin-viec-([^/]+)-k([0-9]+).html?$              /home/address_appli.php?newid=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^don-xin-viec/don-xin-viec-([^/]+)-l([0-9]+).html?$              /home/lang_appli.php?langid=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^don-xin-viec/([^/]+).html?$              /home/cate_appli.php?cat_alias=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^don-xin-viec.html?$                     /home/home_appli.php
+RewriteRule ^tao-don-xin-viec/([^/]+)-m([0-9]+).html$			/home/cv_create_donxinviec.php?alias=$1&idappli=$2&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^mau-thu-xin-viec/thu-xin-viec-([^/]+)-s([0-9]).html?$  /home/lang_letter.php?langid=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^mau-thu-xin-viec/([^/]+).html?$              /home/cate_letter.php?cat_alias=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^mau-thu-xin-viec.html$                       /home/home_letter.php
+RewriteRule ^tao-thu-xin-viec/([^/]+)-n([0-9]+).html$			/home/create_thuxinviec.php?alias=$1&idlt=$2&%{QUERY_STRING} [NE,L]
+
+
+
+#Rate Company
+RewriteRule ^danh-gia-cong-ty-r([0-9]+).html$              /home/rate_company.php?idco=$1
+RewriteRule ^danh-gia-phong-van-i([0-9]+).html$            /home/rate_pv.php?idco=$1
+
+# UV
+RewriteRule ^cap-nhat-thong-tin-ung-vien.html /home/hoan_thanh_tt_uv.php
+RewriteRule ^thong-tin-tai-khoan-ung-vien.html /home/thong_tin_uv.php
+RewriteRule ^ung-vien/viec-lam-da-luu.html /home/vieclam_daluu.php
+RewriteRule ^ung-vien/viec-lam-ung-tuyen.html /home/vieclam_ungtuyen.php
+RewriteRule ^ung-vien/cv-ung-vien-da-tao.html home/cv_uv_daluu.php
+RewriteRule ^ung-vien/ho-so-online.html$  /home/candi_hoso_online.php
+RewriteRule ^ung-vien/cv-xin-viec.html$   /home/candi_cv_xinviec.php
+RewriteRule ^ung-vien/thu-xin-viec.html$   /home/candi_thu_xinviec.php
+RewriteRule ^ung-vien/tin-nhan.html?$     /home/candi_message.php
+RewriteRule ^ung-vien/doi-mat-khau.html  /home/candi_changepass.php
+RewriteRule ^ung-vien/cai-dat-hien-thi.html  /home/candi_config.php
+RewriteRule ^ung-vien/tai-len-ho-so.html?$ /home/candi_hoso_tailen.php
+RewriteRule ^ung-vien/don-xin-viec.html /home/candi_don_xinviec.php
+
+# Blog
+RewriteRule ^blog/c3/bieu-mau/([^/]+)?$  home/bm_cate.php?cate_alias=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^blog/c([0-9]+)/([^/]+)?$ home/blog_cate.php?catid=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^blog/([^/]+)-new([0-9]+).html?$ home/blog_detail.php?newid=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^search-blog home/blog_search.php?%{QUERY_STRING} [NE,L]
+RewriteRule ^blog/tac-gia/([^/]+)/tg([0-9]+).html?$ home/tac_gia.php?id_tacgia=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^blog home/blog.php
+RewriteRule ^bi-quyet-viet-cv.html home/blog_cv.php
+RewriteRule ^cau-hoi-phong-van/([^/]+)-pv([0-9]+).html?$ home/chpv_detail.php?newid=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^cau-hoi-phong-van/([^/]+).html?$ home/cate_chpv.php?catid=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^cau-hoi-phong-van/?$ home/blog_chpv.php?catid=56&%{QUERY_STRING} [NE,L]
+
+#Info
+RewriteRule ^quy-dinh-bao-mat.html /home/quy_dinh_bao_mat.php
+RewriteRule ^thoa-thuan-su-dung.html /home/thoa_thuan_su_dung.php
+RewriteRule ^thong-tin-can-biet.html /home/thong_tin_can_biet.php
+RewriteRule ^ve-chung-toi.html /home/ve_chung_toi.php
+RewriteRule ^co-che-giai-quyet-tranh-chap.html /home/co_che_tranh_chap.php
+RewriteRule ^quy-che-hoat-dong.html /home/quy_che_hoat_dong.php
+
+#Bang gia
+RewriteRule ^bang-gia                                            /home/bang_gia.php
+RewriteRule ^chi-tiet/([0-9]+)                                  /home/banggia_detail.php?id=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^ghim-tin                                           /home/banggia_ghimtin.php
+
+#Maps
+RewriteRule ^ung-vien-quanh-day.html /home/map-ung-vien.php
+RewriteRule ^viec-lam-quanh-day.html /home/map-viec-lam.php
+
+#Gioi thieu app
+RewriteRule ^ung-dung-tim-viec-lam.html$        /home/gt_apptimviec.php
+RewriteRule ^ung-dung-tao-cv.html$              /home/gt_appcv.php
+
+RewriteRule ^ho-so-xin-viec.html$                /home/hsxv.php
+
+#Freelancer 
+RewriteRule ^tim-viec-lam-freelancer-flc([0-2]+).html$                                          /freelancer/home/danh-sach-viec-lam.php?idcate=$1
+RewriteRule ^tim-viec-lam-freelancer-([^/]+)-flt([0-9]+)-flc0.html$                      /freelancer/home/danh-sach-viec-lam.php?city=$2&idcate=$3
+RewriteRule ^tim-viec-lam-freelancer-([^/]+)-fln([0-9]+)-flc0.html$                      /freelancer/home/danh-sach-viec-lam.php?category=$2&idcate=$3
+RewriteRule ^tim-viec-lam-freelancer-([^/]+)-([^/]+)-fln([0-9]+)-flt([0-9]+).html$              /freelancer/home/danh-sach-viec-lam.php?category=$3&city=$4&idcate=$5
+RewriteRule ^viec-lam-freelancer-flc0$  /freelancer/home/danh-sach-viec-lam.php?idcate=$1&%{QUERY_STRING} [NE,L]
+
+
+
+#Error 404 Image
+#ErrorDocument 400 https://timviec365.com/home/404.php
+#ErrorDocument 403 https://timviec365.com/home/404.php
+#ErrorDocument 404 https://timviec365.com/home/404.php
+
+php_value max_execution_time 1800
+FileETag MTime Size
+#Turn off Etag
+Header unset Pragma
+Header unset ETag 
+<Files ".(js|css|html|htm|php|xml)$">
+SetOutputFilter DEFLATE
+</Files>
+<Files *.js>
+Header add "Cache-Control" "max-age=604800"
+</Files>
+<Files *.ico>
+Header set Cache-Control "max-age=604800, public"
+</Files>
+<Files ".(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</Files>
+<Files ".(xml|txt|css|js)$">
+Header set Cache-Control "max-age=172800, proxy-revalidate"
+</Files>
+<Files ".(html|htm|php)$">
+Header set Cache-Control "max-age=60, private, proxy-revalidate"
+</Files>
+<FilesMatch ".(ico|jpg|jpeg|png|gif|js|css|swf|woff)$">
+Header set Expires "Tue, 16 Jun 2020 20:00:00 GMT"
+</FilesMatch>
+<ifModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 10 seconds"
+    ExpiresByType text/cache-manifest "access plus 0 seconds"
+ 
+    # Data
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType text/xml "access plus 0 seconds"
+    ExpiresByType application/xml "access plus 0 seconds"
+    ExpiresByType application/json "access plus 0 seconds"
+ 
+    # Feed
+    ExpiresByType application/rss+xml "access plus 3600 seconds"
+    ExpiresByType application/atom+xml "access plus 3600 seconds"
+ 
+    # Favicon
+    ExpiresByType image/x-icon "access plus 15552000 seconds"
+ 
+    # Media: images, video, audio
+    ExpiresByType image/gif "access plus 15552000 seconds"
+    ExpiresByType image/png "access plus 15552000 seconds"
+    ExpiresByType image/jpeg "access plus 15552000 seconds"
+    ExpiresByType image/jpg "access plus 15552000 seconds"
+    ExpiresByType video/ogg "access plus 15552000 seconds"
+    ExpiresByType audio/ogg "access plus 15552000 seconds"
+    ExpiresByType video/mp4 "access plus 15552000 seconds"
+    ExpiresByType video/webm "access plus 15552000 seconds"
+ 
+    # HTC files  (css3pie)
+    ExpiresByType text/x-component "access plus 15552000 seconds"
+ 
+    # Webfonts
+    ExpiresByType application/x-font-ttf "access plus 15552000 seconds"
+    ExpiresByType font/opentype "access plus 15552000 seconds"
+    ExpiresByType font/woff2 "access plus 15552000 seconds"
+    ExpiresByType application/x-font-woff "access plus 15552000 seconds"
+    ExpiresByType image/svg+xml "access plus 15552000 seconds"
+    ExpiresByType application/vnd.ms-fontobject "access plus 15552000 seconds"
+ 
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 15552000 seconds"
+    ExpiresByType application/javascript "access plus 15552000 seconds"
+    ExpiresByType text/javascript "access plus 15552000 seconds"
+    ExpiresByType application/javascript "access plus 15552000 seconds"
+    ExpiresByType application/x-javascript "access plus 15552000 seconds"
+ 
+    # Others files
+    ExpiresByType application/x-shockwave-flash "access plus 15552000 seconds"
+    ExpiresByType application/octet-stream "access plus 15552000 seconds"
+</ifModule>
+#Options All -Indexes

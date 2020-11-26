@@ -1,0 +1,259 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto-Regular;
+	font-size: 15px;
+}
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: Roboto-Medium;
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+	font-family: Roboto-Bold;
+	src: url('../fonts/Roboto-Bold.ttf');
+} 
+/* background */
+.G_cover{
+	/*background: #FAFAFA;*/
+	background: #F80EF8;
+	width: 100%;
+	/*height: 1000px;*/
+	position: absolute;
+}
+/* 3 dòng đầu (trang chủ, tìm kiếm, tìm nhiều nhất) */
+.G_header{
+	width: 74.87%;
+	margin: auto;
+	margin-top: 23px;
+}
+.G_line1 a{
+	color: black;
+	text-decoration: none;
+}
+.G_search_bar{
+	margin-top: 25px;
+}
+.G_search_bar input{
+	width: 43.05%;
+	height: 53px;
+	border-radius: 7px 0px 0px 7px; 
+	border: 0.5px solid #E2E2E2;
+}
+.select2-container--default .select2-selection--single{
+	height: 54px;
+    border-radius: 0px;
+    border: 0.5px solid #E2E2E2;
+    margin-top: -3px;
+
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	margin-top: 11px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+	height: 47px;
+}
+.G_search_bar button{
+	padding: 17px 26px;
+    margin-left: -3.5px;
+    border: 0.5px solid #F8971C;
+    border-radius: 0px 7px 7px 0px;
+    background: #F8971C;
+}
+.G_line3{
+	margin-top: 12px;
+	margin-bottom: 45px;
+}
+.G_line3 .column,
+.G_line3 .column0{
+	float: left;
+	margin-right: 37px;
+}
+.G_line3 .column0{
+	color: #959595;
+}
+.G_line3 a{
+	text-decoration: none;
+	color: #3980D4;
+}
+/* tiếp đến xem thêm gần cuối trang */
+.G_midder{
+	background: #F41DA6;
+	width: 74.87%;
+	margin: auto;
+}
+/* cột bên trái gồm tất cả - việc làm freelancer theo dự án - việc làm freelancer bán thời gian */
+.G_midder .G_column1{
+	width: 68.7%;
+}
+/* thanh màu xanh gồm 3 cột */
+.G_column1{
+	float: left;
+	margin-right: 20px;
+}
+.G_menu .G_cot1,
+.G_menu .G_cot2{
+	float: left;
+}
+.G_menu{
+	text-align: center;
+	display: 
+}
+.G_menu a{
+	color: white;
+	text-decoration: none;
+	font-family: Roboto-Medium;
+	font-size: 17px;
+	line-height: 24px;
+}
+.G_menu .G_cot1{
+	padding: 12px 31px 12px 31px;
+	background: #65ACFF;
+	border-radius: 15px 0px 0px 0px;
+}
+.G_menu .G_cot2{
+	padding: 12px 49px;
+	background: #65ACFF;
+}
+.G_menu .G_cot3{
+	padding: 12px 47px;
+	background: #65ACFF;
+	border-radius: 15px 15px 0px 0px;
+}
+/* khung của tất cả sản phẩm bên dưới thanh màu xanh */
+.G_content{
+	background: white;
+	margin-bottom: 31px;
+}
+/* khung bên ngoài sp thứ nhất */
+.G_dong1{
+}
+/* khung bên trong gồm tất cả gì có bên trong khung sp thứ nhất */
+.G_logo{
+	width: 96.8%;
+	margin: 0 auto;
+	margin-top: 17px;
+    margin-left: 18px;
+}
+.G_logo .G_img{
+	float: left;
+	margin-right: 28px;
+}
+.G_logo .G_img img{
+	width: 118px;
+	height: 85px;
+}
+/* bên cạnh logo */
+.G_span span{
+	font-family: Roboto-Medium;
+	font-size: 17px;
+	line-height: 153.69%;
+}
+.G_not_span img{
+	margin-right: 13px;
+} 
+.G_not_span{
+	height: 85px;
+    margin-top: 1px;
+    display: inline-block;
+}
+.G_not_span a{
+	text-decoration: none;
+	color: #F8971C;
+	font-family: Roboto-Medium;
+	background: #FFF6EB;
+    padding: 3px 20px 3px 20px;
+}
+.G_nd .G_name,
+.G_nd .G_cs .G_ha{
+	color:  #777A7E;
+}
+.G_nd .G_name{
+	margin-top: 10px;
+}
+.G_nd .G_cs .G_dm{
+	float: left;
+    width: 34%;
+}
+.G_nd .G_cs img{
+	margin-right: 12px;
+}
+.G_nd .G_cs{
+	margin-top: 14px;
+}
+.G_logo .G_nd{
+	float: left;
+	width: 65%;
+}
+.G_under_logo{
+	margin-top: 5px;
+}
+.G_under_logo a{
+	text-decoration: none;
+	background: linear-gradient(89.1deg, #F8971C 4.81%, #FFCA87 66.17%, rgba(255, 228, 194, 0.7) 94.18%, rgba(255, 235, 210, 0) 105.91%);
+	/*opacity: 0.2;*/
+	padding: 5px 37px;
+}
+.G_under_logo{
+	margin-top: 20px;
+}
+.G_under_logo .G_inside1{
+	float: left;
+	margin-right: 30px;
+}
+.G_under_logo .G_inside1 a{
+	color: #FF8F00;
+	font-family: Roboto-Medium;
+}
+/* văn bản */
+.G_document{
+	margin-top: 20px;
+	margin-bottom: 21px;
+}
+.G_document p{
+	width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    -webkit-line-clamp: 3;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
+/* kỹ năng */
+.skill{
+	display: flex;
+	padding-bottom: 31px;
+} 
+.skill .skill1{
+	margin-right: 13px;
+	font-family: Roboto-Medium;
+}
+.skill .skill2{
+	margin-right: 5px;
+}
+.skill .skill2,
+.skill .skill3{
+	background: #F8F8F8;
+    padding: 1px 17px 1px 17px;
+    border-radius: 100px;
+}
+
+/*Kết thúc cột trái và sang cột phải*/
+.G_menu2 .G_cot_giua a{
+	text-decoration: none;
+	font-family: Roboto-Medium;
+	font-size: 17px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.G_menu2 .G_cot_giua{
+	text-align: center;
+	background: #65ACFF;
+    display: flow-root;
+    padding: 12px;
+    border-radius: 15px 15px 0px 0px;
+}

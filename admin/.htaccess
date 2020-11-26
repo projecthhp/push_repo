@@ -1,0 +1,42 @@
+SetEnvIf X-Forwarded-For "14.161.41.153" AllowIP
+SetEnvIf X-Forwarded-For "123.24.206.25" AllowIP
+SetEnvIf X-Forwarded-For "113.190.232.100" AllowIP
+SetEnvIf X-Forwarded-For "42.115.215.177" AllowIP
+SetEnvIf X-Forwarded-For "1.55.74.114" AllowIP
+SetEnvIf X-Forwarded-For "113.185.11.149" AllowIP
+SetEnvIf X-Forwarded-For "171.229.209.48" AllowIP
+SetEnvIf X-Forwarded-For "43.239.223.187" AllowIP
+SetEnvIf X-Forwarded-For "43.239.223.229" AllowIP
+SetEnvIf X-Forwarded-For "43.239.223.157" AllowIP
+SetEnvIf X-Forwarded-For "14.162.144.184" AllowIP
+SetEnvIf X-Forwarded-For "118.70.126.231" AllowIP
+SetEnvIf X-Forwarded-For "27.74.242.246" AllowIP
+SetEnvIf X-Forwarded-For "42.118.51.79" AllowIP
+SetEnvIf X-Forwarded-For "103.76.201.214" AllowIP
+SetEnvIf X-Forwarded-For "14.162.232.231" AllowIP
+SetEnvIf X-Forwarded-For "43.239.223.60" AllowIP
+SetEnvIf X-Forwarded-For "183.80.236.16" AllowIP
+SetEnvIf X-Forwarded-For "14.247.208.145" AllowIP
+SetEnvIf X-Forwarded-For "118.70.185.222" AllowIP
+SetEnvIf X-Forwarded-For "171.241.53.55" AllowIP
+
+SetEnvIf X-Forwarded-For "27.67.24.53" AllowIP
+SetEnvIf X-Forwarded-For "42.112.94.29" AllowIP
+SetEnvIf X-Forwarded-For "117.4.243.120" AllowIP
+SetEnvIf X-Forwarded-For "1.53.38.160" AllowIP
+SetEnvIf X-Forwarded-For "113.22.208.121" AllowIP
+SetEnvIf X-Forwarded-For "171.241.119.136" AllowIP
+SetEnvIf X-Forwarded-For "183.81.75.121" AllowIP
+SetEnvIf X-Forwarded-For "183.81.84.217" AllowIP
+SetEnvIf X-Forwarded-For "27.67.133.195" AllowIP
+SetEnvIf X-Forwarded-For "171.241.122.245" AllowIP
+SetEnvIf X-Forwarded-For "43.239.223.15" AllowIP
+SetEnvIf X-Forwarded-For "14.162.86.149" AllowIP
+SetEnvIf X-Forwarded-For "171.241.65.39" AllowIP
+SetEnvIf X-Forwarded-For "::1" AllowIP
+<IfModule mod_authz_core.c>
+  <RequireAny>
+    Require env AllowIP
+    Require ip 14.162.144.184 42.114.250.33 27.74.242.246 14.161.41.153 123.24.206.25 113.190.232.100 42.115.215.177 1.55.74.114 118.70.126.231 113.185.11.149 171.229.209.48 115.79.62.130 43.239.223.187 43.239.223.229 43.239.223.157 118.70.185.222 117.4.243.120 43.239.223.60 113.22.208.121 171.241.119.136 183.81.75.121 171.241.53.55 183.81.84.217 27.67.133.195 171.241.122.245 43.239.223.15 14.162.86.149 171.241.65.39 ::1
+  </RequireAny>
+</IfModule>
